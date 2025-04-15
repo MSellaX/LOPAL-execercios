@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="multiplodecinco"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 08:07:42 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMDg7IjAxOjQyOjU1ICI7MjYyNg=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMDg7IjAxOjQyOjU5ICI7MTtERVMtSTFIU0I7RVNONTEyTjEyNjI4Mzc7MjAyNS0wNC0wODsiMTI6NTE6NTggIjtudW1lcm9wb3NpdGl2by5mcHJnOzc1MTk="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMTU7IjA4OjA3OjQyICI7MjsyNzM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numUm" type="Integer" array="False" size=""/>
+            <comment text="essa variavel armazenara o numero que o usu&#225;rio quer saber se &#233; multiplo de 5"/>
+            <output expression="&quot;Escreva um n&#250;mero.&quot;" newline="True"/>
+            <input variable="numUm"/>
+            <comment text="esse comando vai indentificar o numero que o usu&#225;rio escolheu para que seja realizado o calculo se ele &#233; multiplo de 5"/>
+            <if expression="numUm % 5 == 0">
+                <then>
+                    <output expression="&quot;Esse n&#250;mero &#233; m&#250;ltiplo de 5!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Esse n&#250;mero n&#227;o &#233; m&#250;ltiplo de 5!&quot;" newline="True"/>
+                </else>
+            </if>
+            <comment text="no final do comando o programa faz a conta para saber se o numero e multiplo de 5"/>
+        </body>
+    </function>
+</flowgorithm>

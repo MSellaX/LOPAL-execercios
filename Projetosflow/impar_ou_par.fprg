@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="impar_ou_par"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-15 08:05:05 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMDg7IjAxOjE5OjI5ICI7MjYzMQ=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMDg7IjAxOjIwOjIzICI7MTtERVMtSTFIU0I7RVNONTEyTjEyNjI4Mzc7MjAyNS0wNC0wODsiMTI6NTE6NTggIjtudW1lcm9wb3NpdGl2by5mcHJnOzc1MDY="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM3OzIwMjUtMDQtMTU7IjA4OjA1OjA1ICI7MjsyNzM0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numUm" type="Integer" array="False" size=""/>
+            <comment text="essa vari&#225;vel armazena o n&#250;mero que o usu&#225;rio digita para realizar o calculo se &#233; impar ou par"/>
+            <output expression="&quot;Escreva um n&#250;mero.&quot;" newline="True"/>
+            <input variable="numUm"/>
+            <comment text="esse comando vai escrever na tela o n&#250;mero inserido pelo usu&#225;rio"/>
+            <if expression="numUm % 2 == 0">
+                <then>
+                    <output expression="&quot;Esse n&#250;mero &#233; par!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Esse n&#250;mero &#233; impar!&quot;" newline="True"/>
+                </else>
+            </if>
+            <comment text="esse comando vai fazer o calculo se o n&#250;mero &#233; impar ou par "/>
+        </body>
+    </function>
+</flowgorithm>
